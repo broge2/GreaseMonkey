@@ -4,4 +4,5 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
-gridImages["needsGrading"] = '<img src=\'Link to Image Here\' alt=\'Needs Grading\' title=\'Needs Grading\'>'
+imgsrc = "Link to Image Here";
+gridImages["needsGrading"] = '<img src=\'' + imgsrc + '\' alt=\'Needs Grading\' title=\'Needs Grading\'>'
